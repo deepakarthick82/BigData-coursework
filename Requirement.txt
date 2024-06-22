@@ -1,0 +1,12 @@
+Python 3
+threading
+from moviepy.editor import VideoFileClip
+import speech_recognition as sr
+from pydub import audio_segment , AudioSegment
+from textblob import TextBlob
+from concurrent.futures import ThreadPoolExecutor
+file_lock = threading.Lock()
+from logger import logging
+import time
+import multiprocessing
+import requests
